@@ -7,7 +7,7 @@ public class Control {
     private String userSelection() {
         Scanner scan = new Scanner(System.in);
         System.out.println("Podaj porę roku:");
-        System.out.println(Arrays.toString(Season.values()));
+        System.out.println(Arrays.toString(Season.getSeasonsTranslated()));
         String userChoice = scan.nextLine();
         return userChoice;
     }
